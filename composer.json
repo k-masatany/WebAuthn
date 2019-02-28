@@ -1,0 +1,40 @@
+{
+  "name": "k-masatany/web-authn",
+  "description": "WebAuthn Server for Laravel 5",
+  "keywords": [
+    "laravel",
+    "webauthn"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "k-masatany",
+      "email": "sonntag902@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "k-masatany\\WebAuthn\\": "src/"
+    }
+  },
+  "scripts": {
+    "test": "phpunit"
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "k-masatany\\WebAuthn\\Tests\\": "tests/"
+    }
+  },
+  "minimum-stability": "dev",
+  "require": {
+    "php": "^7.0",
+    "laravel/framework": "5.7.*"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "k-masatany\\WebAuthn\\WebAuthnServiceProvider"
+      ]
+    }
+  }
+}
