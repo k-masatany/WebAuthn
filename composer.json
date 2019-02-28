@@ -14,7 +14,7 @@
   ],
   "autoload": {
     "psr-4": {
-      "k-masatany\\WebAuthn\\": "src/"
+      "KMasatany\\WebAuthn\\": "src/"
     }
   },
   "scripts": {
@@ -22,7 +22,7 @@
   },
   "autoload-dev": {
     "psr-4": {
-      "k-masatany\\WebAuthn\\Tests\\": "tests/"
+      "KMasatany\\WebAuthn\\Tests\\": "tests/"
     }
   },
   "minimum-stability": "dev",
@@ -36,7 +36,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "k-masatany\\WebAuthn\\WebAuthnServiceProvider"
+        "KMasatany\\WebAuthn\\WebAuthnServiceProvider"
       ]
     }
   }
